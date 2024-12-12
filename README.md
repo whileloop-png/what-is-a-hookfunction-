@@ -16,3 +16,15 @@ How Does It Work?
 You create a hook function that takes the same parameters as the original function.
 Your hook function can modify the behavior or return values of the function.
 The hook function is applied to the original function, so the original function is "replaced" by the hook function.
+
+
+
+
+Why Use "hookfunction"?
+
+Debugging: you can hook functions to track what data is being passed. For example, logging function calls and their parameters can provide insight into what’s happening and how it's happening (which helps wink wink).
+
+Preventing Specific Actions: if you want to block certain actions (shitty anticheats, or even replacing raycasting with your own! WINK WINK), you can hook the relevant functions and prevent them from running.
+
+etc etc, im too lazy for this
+
