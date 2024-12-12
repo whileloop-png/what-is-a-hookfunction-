@@ -1,8 +1,8 @@
 # what-is-a-hookfunction?
 example code blocks are posted above (im bored!)
 
-What is "hookfunction" in Roblox?
-in roblox, hookfunction is used to intercept, replace, or extend the behavior of existing functions or methods in a script. It allows you to modify the behavior of a function at runtime, meaning you can change how a function works while the game is running.
+What is "hookfunction"?
+hookfunction is used to intercept, replace, or extend the behavior of existing functions or methods in a script. It allows you to modify the behavior of a function at runtime, meaning you can change how a function works while the game is running.
 
 In simple terms, hookfunction is a way to replace a function with your own. You can still use the original function, but you now have the ability to alter its behavior, log information, or even block the function from executing altogether.
 
