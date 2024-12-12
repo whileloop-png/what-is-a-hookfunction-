@@ -10,3 +10,10 @@ local hookedAdd; hookedAdd = hookfunction(add, function(a, b)
 end)
 
 print(hookedAdd(2, 3))  --output: adding numbers: 2 3 and then 15
+
+--[[
+
+    hookfunction(add, function(a, b)): We hook the add function, replacing it with our own version that logs the inputs and modifies the output.
+    originalAdd(a, b): This calls the original add function after modifying the result (adding 10).
+
+--]]
